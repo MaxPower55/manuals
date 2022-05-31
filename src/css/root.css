@@ -9,7 +9,6 @@
 	--black: #000000;
 	--white: #FFFFFF;
 	--btn-active: #7E0707;
-
 }
 * {
 	box-sizing: border-box;
@@ -21,7 +20,6 @@
 	width: 100%;
 	overflow-x: hidden;
 	position: relative;
-	padding: 0 20px;
 }
 .header {
 	width: 100%;
@@ -31,18 +29,55 @@
 	right: 0;
 }
 .main {
-	margin-top: 115px;
+	margin-top: 81px;
 }
 .footer {
 
 }
-@media screen and (max-width: 768px) {
-	.body {
-		padding: 15px;
-	}
+
+.h1 {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: calc(1rem + 2.625vw);
+	line-height: 80px;
+	letter-spacing: 1.8px;
+	color: var(--primary);
 }
 
-.text {
-	line-height: 2em;
-	text-align: justify;
+.text__regular {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+	color: var(--primary);
+}
+.btn {
+	padding: 15px 0;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: 2.1px;
+	text-transform: uppercase;
+	color: var(--white);
+	background: var(--btn-active);
+	border: 2px solid var(--btn-active);
+	border-radius: 0px;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+	.h1 {
+		line-height: 40px;
+		letter-spacing: 1.2px;
+	}
+	
 }
