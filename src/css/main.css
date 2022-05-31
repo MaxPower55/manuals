@@ -7,8 +7,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10% 35vw;
-} 
+    padding: 10% 32vw;
+}
+.h1_s1b1 {
+    text-align: center;
+}
 .text__regular__s1b1 {
     text-align: center;
     margin-top: 23px;
@@ -24,12 +27,10 @@
     background: transparent;
     color: var(--btn-active);
 }
-
 @media screen and (max-width: 1024px) {
     .s1b1 {
         padding: 10% 25vw;
     } 
-    
 }
 @media screen and (max-width: 768px) {
     .s1b1 {
@@ -42,5 +43,38 @@
     }
     .s1b1__btn {
         width: 200px;
+    }
+}
+
+.s2b1 {
+    display: flex;
+    flex-direction: row;
+    padding: 45px;
+    justify-content: space-between;
+}
+.advantage-card {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    align-items: center;
+}
+.advantage-card__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: var(--primary);
+}
+@media screen and (max-width: 768px) {
+    .s2b1 {
+        flex-wrap: wrap;
+        padding: 15px;
+        row-gap: 20px;
+        column-gap: 20px;
+        justify-content: center;
+    }
+    .advantage-card {
+        min-width: 240px;
     }
 }
