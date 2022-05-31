@@ -20,12 +20,18 @@
 .body {
 	width: 100%;
 	overflow-x: hidden;
+	position: relative;
+	padding: 0 20px;
 }
 .header {
 	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
 }
 .main {
-
+	margin-top: 115px;
 }
 .footer {
 
@@ -34,4 +40,9 @@
 	.body {
 		padding: 15px;
 	}
+}
+
+.text {
+	line-height: 2em;
+	text-align: justify;
 }
