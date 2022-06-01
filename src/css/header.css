@@ -5,6 +5,7 @@
     align-items: center;
     padding: 24px 40px;
     background: var(--white);
+    z-index: 10;
 }
 .header__link {
     font-family: 'Roboto';

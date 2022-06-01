@@ -9,6 +9,7 @@
 	--black: #000000;
 	--white: #FFFFFF;
 	--btn-active: #7E0707;
+	--green: #00B67A;
 }
 * {
 	box-sizing: border-box;
@@ -44,7 +45,24 @@
 	letter-spacing: 1.8px;
 	color: var(--primary);
 }
-
+.h2 {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 35px;
+	line-height: 60px;
+	letter-spacing: 1.2px;
+	color: var(--primary);
+}
+.h3 {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 40px;
+	letter-spacing: 0.84px;
+	color: var(--primary);
+}
 .text__regular {
 	font-family: 'Roboto';
 	font-style: normal;
