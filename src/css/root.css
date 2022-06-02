@@ -63,6 +63,15 @@
 	letter-spacing: 0.84px;
 	color: var(--primary);
 }
+.h4 {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 40px;
+	letter-spacing: 0.72px;
+	color: var(--primary);
+}
 .text__regular {
 	font-family: 'Roboto';
 	font-style: normal;
@@ -97,5 +106,10 @@
 		line-height: 40px;
 		letter-spacing: 1.2px;
 	}
-	
+	.h2 {
+		font-size: 28px;
+		line-height: 32px;
+	}
 }
+
+

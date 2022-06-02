@@ -11,7 +11,12 @@ module.exports = {
     },
     
     css: {
-        src: pathSrc + "/css/*.css",
+        src: [
+            pathSrc + "/css/root.css", 
+            pathSrc + "/css/header.css", 
+            pathSrc + "/css/main.css", 
+            pathSrc + "/css/footer.css"
+        ],
         watch: pathSrc + "/css/*.css",
         dest: pathDest + "/css/"
     },
@@ -23,8 +28,8 @@ module.exports = {
     },
 
     img: {
-        src: pathSrc + "/img/*.{png,jpg,jpeg,gif,svg}",
-        watch: pathSrc + "/img/*.{png,jpg,jpeg,gif,svg}",
+        src: pathSrc + "/img/**/*.{png,jpg,jpeg,gif,svg}",
+        watch: pathSrc + "/img/**/*.{png,jpg,jpeg,gif,svg}",
         dest: pathDest + "/img/"
     },
 

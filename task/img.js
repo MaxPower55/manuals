@@ -20,6 +20,7 @@ const img = () => {
             message: error.message
         }))
     }))
+    .pipe(dest(path.img.dest))
     .pipe(webp())
     .pipe(dest(path.img.dest))
     .pipe(gulpif(app.isProd, imagemin(app.imagemin)))
