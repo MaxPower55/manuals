@@ -11,6 +11,7 @@
 	--btn-active: #7E0707;
 	--green: #00B67A;
 	--grey: #BDCDC5;
+	--green-gray: #6D8A83;
 }
 * {
 	box-sizing: border-box;
@@ -32,10 +33,11 @@
 	z-index: 10;
 }
 .main {
-	margin-top: 81px;
+	margin-top: 80px;
 }
 .footer {
-
+	padding: 40px 20px;
+	background: var(--primary);
 }
 
 .h1 {
@@ -104,7 +106,6 @@
 		font-size: 12px;
 		line-height: 22px;
 	}
-	
 }
 
 @media screen and (max-width: 768px) {
@@ -117,5 +118,3 @@
 		line-height: 32px;
 	}
 }
-
-
