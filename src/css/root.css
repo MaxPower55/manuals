@@ -10,6 +10,7 @@
 	--white: #FFFFFF;
 	--btn-active: #7E0707;
 	--green: #00B67A;
+	--grey: #BDCDC5;
 }
 * {
 	box-sizing: border-box;
@@ -28,6 +29,7 @@
 	top: 0;
 	left: 0;
 	right: 0;
+	z-index: 10;
 }
 .main {
 	margin-top: 81px;
@@ -49,7 +51,7 @@
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 35px;
+	font-size: calc(1rem + 1.24vw);
 	line-height: 60px;
 	letter-spacing: 1.2px;
 	color: var(--primary);
@@ -58,7 +60,7 @@
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 25px;
+	font-size: calc(1rem + 1vw);
 	line-height: 40px;
 	letter-spacing: 0.84px;
 	color: var(--primary);
@@ -98,7 +100,11 @@
 }
 
 @media screen and (max-width: 1024px) {
-
+	.text__regular {
+		font-size: 12px;
+		line-height: 22px;
+	}
+	
 }
 
 @media screen and (max-width: 768px) {
